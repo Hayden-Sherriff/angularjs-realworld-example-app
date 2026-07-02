@@ -92,7 +92,7 @@ Each feature is developed inside its own `src/features/<name>/` folder.
 
 ### Styling
 
-The existing Bootstrap/Conduit CSS is loaded from `//demo.productionready.io/main.css` plus Ionicons. Keep the same classNames as the original templates.
+The Conduit/Bootstrap CSS is bundled locally at `src/conduit.css` (imported via `main.jsx`). Ionicons are loaded from the CDN. Keep the same classNames as the original templates.
 
 ---
 
